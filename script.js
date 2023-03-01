@@ -9,7 +9,6 @@ function changeImage1() {
     image.src = "Images/Fashion.jpg";
     a = 1;
   }
-  ofvalue.innerHTML = "0" + a + " of 03";
 }
 
 function changeImage2() {
@@ -23,7 +22,6 @@ function changeImage2() {
     image.src = "Images/Fashion3.jpg";
     a = 3;
   }
-  ofvalue.innerHTML = "0" + a + " of 03";
 }
 
 function myFunction() {
