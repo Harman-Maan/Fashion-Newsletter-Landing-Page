@@ -10,14 +10,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" type="text/javascript"></script>
     <title>Website Design 2.0</title>
   </head>
-
   <body>
     <div class="circle1"></div>
     <div class="circle2"></div>
-    <div class="circle3"></div>
     <main>
       <section id="header">
         <div id="search">
@@ -37,12 +34,12 @@
       </section>
       <section id="content">
         <div id="slideBox">
-          <img src="Images/Fashion.jpg" id="myImage" />
+          <img src="Images/Fashion1.jpg" id="slideImage" />
           <div id="controls">
-            <button type="button" onclick="changeImage1()" id="previousImg">
+            <button type="button" onclick="previousImage()" id="previousImg">
               <i class="fa fa-caret-left fa-2x" aria-hidden="true"></i>
             </button>
-            <button type="button" onclick="changeImage2()" id="NextImg">
+            <button type="button" onclick="nextImage()" id="nextImg">
               <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
             </button>
           </div>
@@ -59,7 +56,7 @@
                 It is long establish fact that a reader will be distracted by the readable conent of a page when looking at its layout.<span id="dots">...</span>
                 <span id="more">erisque enim ligula venenatis dolor. Maecent aliquet. Nunc sag pulvinar nibh tempor porta.</span>
               </p>
-              <button onclick="myFunction()" id="readMoreLess">
+              <button onclick="ReadMoreLess()" id="readMoreLess">
                 Read more <span id="leftarrow"><i class="fa fa-caret-right" aria-hidden="true"></i></span>
               </button>
             </div>
@@ -74,5 +71,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
